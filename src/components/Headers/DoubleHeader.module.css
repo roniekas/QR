@@ -1,0 +1,26 @@
+.header {
+    padding-top: 10px;
+    height: 5vh;
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainLink {
+    text-transform: uppercase;
+    font-size: var(--mantine-font-size-xs);
+    font-weight: 700;
+    transition: border-color 100ms ease, color 100ms ease;
+    margin-right: 10px;
+}
